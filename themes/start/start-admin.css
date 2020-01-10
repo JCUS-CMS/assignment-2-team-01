@@ -1,0 +1,100 @@
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 42px;
+  height: 14px;
+  float: right;
+}
+
+.switch input {display:none;}
+
+.startwp_switch {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #b4b9be;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.startwp_switch:before {
+  position: absolute;
+  content: "";
+  height: 23px;
+  width: 23px;
+  /*left: 4px;*/
+  bottom: -4px;
+  background-color: #999999;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .startwp_switch:before {
+  background-color: #2196F3; 
+}
+
+input:checked + .startwp_switch {
+  background-color: #b4b9be;
+}
+
+input:focus + .startwp_switch {
+  box-shadow: 0 0 1px #b4b9be;
+}
+
+input:checked + .startwp_switch:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+/* Rounded startwp_switchs */
+.startwp_switch.round {
+  border-radius: 34px;
+}
+
+.startwp_switch.round:before {
+  border-radius: 50%;
+}
+
+
+
+#startwpsettings{}
+#startwpsettings .form-table{}
+#startwpsettings .form-table tr{}
+#startwpsettings .form-table tr th, #startwpsettings .form-table tr td{padding: 10px 10px 10px 0;}
+
+
+
+
+.left-padding{padding-left: 15px;}
+.right-padding{padding-right: 15px;}
+
+.swp-wrap{margin: 10px 20px 0 2px;}
+.col-half{ width: 48%; float: left;}
+.col-half .plugin-card-startwp-extended{display: inline-flex;}
+
+
+
+
+
+.swp-wrap .form-table tr{
+    background: white;
+    border-radius: 2px;
+    box-shadow: 0px 0px 1px #000000;
+    padding: 20px;
+    width: 30%;
+    float: left;
+    margin: 10px;
+}
+
+.swp-wrap .form-table tr th{
+    display: block;
+    padding: 0;
+}
+
+.swp_learn_more{
+  text-decoration: none;
+}

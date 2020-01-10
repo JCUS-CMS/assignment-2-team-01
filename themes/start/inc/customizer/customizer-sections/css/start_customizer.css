@@ -1,0 +1,160 @@
+/* Radio tab  */
+#customize-control-general_setting .buttonset, 
+#customize-control-header_setting .buttonset,
+#customize-control-menu_setting .buttonset,
+#customize-control-blog_archive_setting .buttonset,
+#customize-control-sidebar_setting .buttonset,
+#customize-control-footer_setting .buttonset,
+#customize-control-copyright_setting .buttonset,
+#customize-control-404_setting .buttonset,
+#customize-control-search_archive_setting .buttonset,
+
+#customize-control-woocommerce_general_setting .buttonset,
+#customize-control-woocommerce_archive_setting .buttonset,
+#customize-control-woocommerce_single_setting .buttonset,
+
+#customize-control-edd_archive_setting .buttonset
+{
+	    margin: -15px -12px 0px -12px;
+}
+
+#customize-control-general_setting .buttonset .switch-label,
+#customize-control-header_setting .buttonset .switch-label,
+#customize-control-menu_setting .buttonset .switch-label,
+#customize-control-blog_archive_setting .buttonset .switch-label,
+#customize-control-sidebar_setting .buttonset .switch-label,
+#customize-control-footer_setting .buttonset .switch-label,
+#customize-control-copyright_setting .buttonset .switch-label,
+#customize-control-404_setting .buttonset .switch-label,
+#customize-control-search_archive_setting .buttonset .switch-label,
+
+#customize-control-woocommerce_general_setting .buttonset .switch-label,
+#customize-control-woocommerce_archive_setting .buttonset .switch-label,
+#customize-control-woocommerce_single_setting .buttonset .switch-label,
+
+#customize-control-edd_archive_setting .buttonset .switch-label,
+#customize-control-edd_single_setting .buttonset .switch-label
+{
+        color: #555d66 !important;
+}
+
+
+#customize-control-general_setting .buttonset .switch-input:checked + .switch-label,
+#customize-control-header_setting .buttonset .switch-input:checked + .switch-label,
+#customize-control-menu_setting .buttonset .switch-input:checked + .switch-label,
+#customize-control-blog_archive_setting .buttonset .switch-input:checked + .switch-label,
+#customize-control-sidebar_setting .buttonset .switch-input:checked + .switch-label,
+#customize-control-footer_setting .buttonset .switch-input:checked + .switch-label,
+#customize-control-copyright_setting .buttonset .switch-input:checked + .switch-label,
+#customize-control-404_setting .buttonset .switch-input:checked + .switch-label,
+#customize-control-search_archive_setting .buttonset .switch-input:checked + .switch-label,
+
+#customize-control-woocommerce_general_setting .switch-input:checked + .switch-label,
+#customize-control-woocommerce_archive_setting .switch-input:checked + .switch-label,
+#customize-control-woocommerce_single_setting .switch-input:checked + .switch-label,
+
+#customize-control-edd_archive_setting .switch-input:checked + .switch-label,
+#customize-control-edd_single_setting .switch-input:checked + .switch-label
+{
+	color: #ffffff !important;
+}
+
+
+#customize-control-general_setting .buttonset .switch-input:checked + .switch-label:before,
+#customize-control-header_setting .buttonset .switch-input:checked + .switch-label:before,
+#customize-control-menu_setting .buttonset .switch-input:checked + .switch-label:before,
+#customize-control-blog_archive_setting .buttonset .switch-input:checked + .switch-label:before,
+#customize-control-sidebar_setting .buttonset .switch-input:checked + .switch-label:before,
+#customize-control-footer_setting .buttonset .switch-input:checked + .switch-label:before,
+#customize-control-copyright_setting .buttonset .switch-input:checked + .switch-label:before,
+#customize-control-404_setting .buttonset .switch-input:checked + .switch-label:before,
+#customize-control-search_archive_setting .buttonset .switch-input:checked + .switch-label:before,
+
+#customize-control-woocommerce_general_setting .buttonset .switch-input:checked + .switch-label:before,
+#customize-control-woocommerce_archive_setting .buttonset .switch-input:checked + .switch-label:before,
+#customize-control-woocommerce_single_setting .buttonset .switch-input:checked + .switch-label:before,
+
+#customize-control-edd_archive_setting .buttonset .switch-input:checked + .switch-label:before,
+#customize-control-edd_single_setting .buttonset .switch-input:checked + .switch-label:before
+{
+	color: #ffffff !important;
+}
+
+#customize-control-general_setting .buttonset .switch-label[for="general_settinggeneral"]:before,
+#customize-control-header_setting .buttonset .switch-label[for="header_settinggeneral"]:before,
+#customize-control-menu_setting .buttonset .switch-label[for="menu_settinggeneral"]:before,
+#customize-control-blog_archive_setting .buttonset .switch-label[for="blog_archive_settinggeneral"]:before,
+#customize-control-sidebar_setting .buttonset .switch-label[for="sidebar_settinggeneral"]:before,
+#customize-control-footer_setting .buttonset .switch-label[for="footer_settinggeneral"]:before,
+#customize-control-copyright_setting .buttonset .switch-label[for="copyright_settinggeneral"]:before,
+#customize-control-404_setting .buttonset .switch-label[for="404_settinggeneral"]:before,
+#customize-control-search_archive_setting .buttonset .switch-label[for="search_archive_settinggeneral"]:before,
+
+#customize-control-woocommerce_general_setting .buttonset .switch-label[for="woocommerce_general_settinggeneral"]:before,
+#customize-control-woocommerce_archive_setting .buttonset .switch-label[for="woocommerce_archive_settinggeneral"]:before,
+#customize-control-woocommerce_single_setting .buttonset .switch-label[for="woocommerce_single_settinggeneral"]:before,
+
+#customize-control-edd_archive_setting .buttonset .switch-label[for="edd_archive_settinggeneral"]:before,
+#customize-control-edd_single_setting .buttonset .switch-label[for="edd_single_settinggeneral"]:before
+{
+	content: "\f489";
+    font: 400 20px/1 dashicons;
+    speak: none;
+    display: block;
+}
+
+#customize-control-general_setting .buttonset .switch-label[for="general_settingstyle"]:before, 
+#customize-control-header_setting .buttonset .switch-label[for="header_settingstyle"]:before,
+#customize-control-menu_setting .buttonset .switch-label[for="menu_settingstyle"]:before,
+#customize-control-blog_archive_setting .buttonset .switch-label[for="blog_archive_settingstyle"]:before,
+#customize-control-sidebar_setting .buttonset .switch-label[for="sidebar_settingstyle"]:before,
+#customize-control-footer_setting .buttonset .switch-label[for="footer_settingstyle"]:before,
+#customize-control-copyright_setting .buttonset .switch-label[for="copyright_settingstyle"]:before,
+#customize-control-404_setting .buttonset .switch-label[for="404_settingstyle"]:before,
+#customize-control-search_archive_setting .buttonset .switch-label[for="search_archive_settingstyle"]:before,
+
+#customize-control-woocommerce_general_setting .buttonset .switch-label[for="woocommerce_general_settingstyle"]:before,
+#customize-control-woocommerce_archive_setting .buttonset .switch-label[for="woocommerce_archive_settingstyle"]:before,
+#customize-control-woocommerce_single_setting .buttonset .switch-label[for="woocommerce_single_settingstyle"]:before,
+
+#customize-control-edd_archive_setting .buttonset .switch-label[for="edd_archive_settingstyle"]:before,
+#customize-control-edd_single_setting .buttonset .switch-label[for="edd_single_settingstyle"]:before
+{
+	content: "\f540";
+    font: 400 20px/1 dashicons;
+    speak: none;
+    display: block;
+}
+
+#customize-control-general_setting .buttonset .switch-label[for="general_settingadvanced"]:before,
+#customize-control-header_setting .buttonset .switch-label[for="header_settingadvanced"]:before,
+#customize-control-menu_setting .buttonset .switch-label[for="menu_settingadvanced"]:before,
+#customize-control-blog_archive_setting .buttonset .switch-label[for="blog_archive_settingadvanced"]:before,
+#customize-control-sidebar_setting .buttonset .switch-label[for="sidebar_settingadvanced"]:before,
+#customize-control-footer_setting .buttonset .switch-label[for="footer_settingadvanced"]:before,
+#customize-control-copyright_setting .buttonset .switch-label[for="copyright_settingadvanced"]:before,
+#customize-control-404_setting .buttonset .switch-label[for="404_settingadvanced"]:before,
+#customize-control-search_archive_setting .buttonset .switch-label[for="search_archive_settingadvanced"]:before,
+
+#customize-control-woocommerce_general_setting .buttonset .switch-label[for="woocommerce_general_settingadvanced"]:before,
+#customize-control-woocommerce_archive_setting .buttonset .switch-label[for="woocommerce_archive_settingadvanced"]:before,
+#customize-control-woocommerce_single_setting .buttonset .switch-label[for="woocommerce_single_settingadvanced"]:before,
+
+#customize-control-edd_archive_setting .buttonset .switch-label[for="edd_archive_settingadvanced"]:before,
+#customize-control-edd_single_setting .buttonset .switch-label[for="edd_single_settingadvanced"]:before
+{
+	content: "\f111";
+    font: 400 20px/1 dashicons;
+    speak: none;
+    display: block;
+}
+
+
+#customize-control-header_shortcut,
+#customize-control-blog_shortcut,
+#customize-control-sidebar_shortcut,
+#customize-control-footer_shortcut,
+#customize-control-copyright_shortcut
+{
+    display: none !important;
+}
