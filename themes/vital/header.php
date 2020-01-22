@@ -49,17 +49,28 @@
 			
 			<div class="clear"></div><!-- .clear -->
 			
-			<div class="coverImageContent">
+			<?php
+			
+			if ( is_front_page() && is_home() ) :
+				?>
+				<div class="coverImageContent">
 				<div class="backgroundBox">
 					<?php
 					the_custom_logo();?>
 					<h1><?php bloginfo( 'name' );?></h1>
 					<h3><?php echo get_bloginfo( 'description', 'display' ); /* WPCS: xss ok. */ ?></h3>
-					<p>Breaking boundaries of race religion and nationality, and creating access for quality healthcare irrespective of race, religion or nationality – all FREE of cost!</p>
+					<p>Enter you site's eye catching message here to draw in people</p>
 
-					<a href="#" title="coverImageButton" class="button buttonCoverImage">Join Us!</a>
+					<a href="#" title="coverImageButton" class="button buttonCoverImage">Find out more</a>
 					</div><!-- .backgroundBox -->
 				</div><!-- .coverImageContent -->
+				<?php
+			else :
+				?>
+				
+			<?php endif; ?>
+			
+			
 				
 			</div><!-- .container -->
 			
