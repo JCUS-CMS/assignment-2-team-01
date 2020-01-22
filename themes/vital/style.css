@@ -1027,8 +1027,9 @@ li{
 }
 
 .coverImageContent{
-	padding: 6em 0;
-	width: 70%;
+	padding-top: 5em;
+	padding-bottom: 6em;
+	width: 90%;
 	text-align: center;
 	color: white;
 	margin: auto;
@@ -1078,6 +1079,11 @@ li{
 	color: white;
 }
 
+.site-branding .custom-logo{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
 .coverImage .main-navigation ul{
 	float: right;
 
@@ -1101,7 +1107,8 @@ li{
 
 
 .section{
-	background: #ccf0ff;
+	width: 90%;
+	margin: auto;
 	padding: 50px 0;
 	padding-left:0.5em;
 
