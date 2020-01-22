@@ -61,7 +61,7 @@ if ( ! function_exists( 'vital_setup' ) ) :
 
 		// Set up the WordPress core custom background feature.
 		add_theme_support( 'custom-background', apply_filters( 'vital_custom_background_args', array(
-			'default-color' => 'ffffff',
+			'default-color' => '#00b3ff',
 			'default-image' => '',
 		) ) );
 
@@ -74,11 +74,13 @@ if ( ! function_exists( 'vital_setup' ) ) :
 		 * @link https://codex.wordpress.org/Theme_Logo
 		 */
 		add_theme_support( 'custom-logo', array(
-			'height'      => 250,
-			'width'       => 250,
+			'height'      => 50,
+			'width'       => 50,
 			'flex-width'  => true,
 			'flex-height' => true,
 		) );
+		
+		
 	}
 endif;
 add_action( 'after_setup_theme', 'vital_setup' );

@@ -910,6 +910,10 @@ object {
 .custom-logo-link {
 	display: inline-block;
 }
+.custom-logo{
+	width: 100px;
+	height: 100px;
+}
 
 /*--------------------------------------------------------------
 ## Captions
@@ -1008,7 +1012,7 @@ li{
 }
 
 .coverImage{
-	background: url(http://192.168.33.10/wp-content/uploads/2020/01/Kalumpang-pic10.jpg);
+	background: #00b3ff;
 	padding: 0.05em 0 6em 0;
 	background-size: cover;
 	background-position: center center;
