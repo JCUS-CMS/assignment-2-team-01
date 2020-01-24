@@ -1,6 +1,6 @@
 <?php
 /**
- * Name: Gallery Page
+ * Template Name: Gallery Page
  */
 
 get_header();

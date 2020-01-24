@@ -1,6 +1,6 @@
 <?php
 /**
- * Name: Join Us Page
+ * Template Name: Join Us Page
  */
 
 get_header();
