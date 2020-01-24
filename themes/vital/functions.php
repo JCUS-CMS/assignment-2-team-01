@@ -79,8 +79,7 @@ if ( ! function_exists( 'vital_setup' ) ) :
 			'flex-width'  => true,
 			'flex-height' => true,
 		) );
-		
-		
+
 	}
 endif;
 add_action( 'after_setup_theme', 'vital_setup' );
@@ -160,4 +159,5 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
 
