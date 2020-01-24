@@ -1107,14 +1107,24 @@ li{
 
 
 .section{
-	width: 90%;
-	margin: auto;
+
 	padding: 50px 0;
 	padding-left:0.5em;
 
 }
 
+.sectionThemeColor{
+
+	padding: 50px 0;
+	padding-left:0.5em;
+	background:#00b3ff;
+	
+
+}
+
 .tickerBox{
+	width: 90%;
+	margin: auto;
 	background-color: rgba(0, 0, 0, 0.7);
 	border-radius: 25px;
 	text-align: center;
