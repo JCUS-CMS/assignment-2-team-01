@@ -1109,18 +1109,18 @@ li{
 .section{
 
 	padding: 50px 0;
-	padding-left:0.5em;
+	overflow: auto;
 
 }
 
 .sectionThemeColor{
 
 	padding: 50px 0;
-	padding-left:0.5em;
 	background:#00b3ff;
+	color: white;
+	overflow: auto;
+	
 }
-
-
 
 .tickerBox{
 	width: 90%;
@@ -1149,4 +1149,70 @@ li{
 
 .site-info{
 	text-align: center;
+}
+
+.centerText{
+	text-align: center;
+	margin-bottom: 2em;
+	}
+
+.plans{
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	color: #00b3ff;
+}
+
+.plansBox{
+	width: 50%;
+	float: left;
+	text-align: center;
+	padding: 2em;
+	border: 1px solid #00b3ff;
+	
+	
+}
+
+.plansBox p{
+	margin:0;
+	padding:0;
+}
+
+.plansBox1{
+	border-left:none;
+	border-top:none;
+}
+
+.plansBox2{
+	border-right:none;
+	border-top:none;
+}
+
+.plansBox3{
+	border-left:none;
+	border-bottom:none;
+}
+
+.plansBox4{
+	border-right:none;
+	border-bottom:none;
+}
+	
+.services{
+	width: 90%;
+	margin: auto;
+}
+
+.servicesBox{
+	width: 30%;
+	margin: auto;
+	float: left;
+	
+}
+
+.servicesImage{
+	width: 40%;
+	float: left;
+	margin: auto;
+	background: black;
 }
