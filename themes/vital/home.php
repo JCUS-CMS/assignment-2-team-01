@@ -90,7 +90,7 @@
 	<div class="plans">
 		
 				<div class="centerText">
-					<h2>Future Plans for Doctors Connect</h2>
+					<h2>Future Plans</h2>
 				</div><!-- .centerText -->
 				
 				<div class="plansBox plansBox1">
