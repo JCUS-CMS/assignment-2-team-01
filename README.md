@@ -2,17 +2,17 @@
 assignment-2-team-01 created by GitHub Classroom
 
 
-Team memmbers:
-KayZin’s Profile
-linkedin.com/in/kayzinphone
-Chaw Su’s Profile
-linkedin.com/in/chawsuthawtar
-Aye Mya’s Profile
-linkedin.com/in/ayemyaphyucin
-Hav’s Profile
-linkedin.com/in/hav-kokfong
-Xinhang's Profile
-linkedin.com/in/xinhang-xu-2b287519b
+Team memmbers (LinkedIn profile link):
+KayZin’s Profile  linkedin.com/in/kayzinphone
+
+Chaw Su’s Profile linkedin.com/in/chawsuthawtar
+
+Aye Mya’s Profile linkedin.com/in/ayemyaphyucin
+
+Hav’s Profile linkedin.com/in/hav-kokfong
+
+Xinhang's Profile linkedin.com/in/xinhang-xu-2b287519b
+
 
 # Environment
 -Localhost: Our team use Vagrant and virtual machine to create local environment for WordPress. All the procedures are working on our localhost at first.
