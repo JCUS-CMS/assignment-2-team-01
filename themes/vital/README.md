@@ -1,7 +1,14 @@
 Vital theme is a theme developed by students with no background in theme development.
 We have done a lot of research and followed many tutorials to create this theme. While vital was created as a theme for a volunteer organisation, it is fairly simple due to our lack of experience and knowledge. The main elements of the the theme layout are the homepage, blogs page and our camps page. While it is true that the theme is not very flexible and requires a lot more development, it's hompage is easily customisable with related content which is quite useful for people who are unfamilier with themes or php. Due to time constraint of our assignment and other complications, we were unable to deal with certain issues like the fully responsive.
 
+== Main Features == 
+1. Homepage layout
+2. Homepage customisation
+3. Blog categories, blog page, camps page template
+4. Widget areas for footer
+
 == Installation ==
+
 Manual installation and activation:
 
 1. Go to Themes
