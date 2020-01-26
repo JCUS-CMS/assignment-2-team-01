@@ -14,7 +14,9 @@
 			
 				<div class="width25">
 					<div class="tickerInnerContent">
-						<h3 class="tickerUp">0</h3>
+						<h3 class="tickerUp">
+							<?php echo get_theme_mod("vital_first_number_setting"); ?>
+						</h3>
 						<p>Ticker 1</p> 
 					</div><!-- .tickerInnerContent -->
 				</div><!-- .width25 -->

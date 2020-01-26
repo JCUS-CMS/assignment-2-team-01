@@ -221,3 +221,98 @@ function the_excerpt_more_link( $excerpt ){
 }
 add_filter( 'the_excerpt', 'the_excerpt_more_link', 50 );
 
+//Statistic section
+function vital_statuses_register($wp_customize){
+	$wp_customize->add_section('vital_status_section', array(
+		'title' => 'Statistic Section',
+		'priority' => 30,
+		'description' => 'To modify the Statistics of the site'
+	));
+
+	//first status
+	$wp_customize->add_setting('vital_first_status_setting', array(
+        'default' => 'First Status'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_first_status_control', array(
+		'label' => 'First Status',
+		'section' => 'vital_status_section',
+		'settings' => 'vital_first_status_setting',
+		'type' => 'text'
+	)));
+
+	$wp_customize->add_setting('vital_first_number_setting', array(
+        'default' => '0'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_first_number_control', array(
+		'label' => 'First Status number',
+		'section' => 'vital_status_section',
+		'settings' => 'vital_first_number_setting',
+		'type' => 'number'
+	)));
+
+	//second status
+	$wp_customize->add_setting('vital_second_status_setting', array(
+        'default' => 'Second Status'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_second_status_control', array(
+		'label' => 'Second Status',
+		'section' => 'vital_status_section',
+		'settings' => 'vital_second_status_setting',
+		'type' => 'text'
+	)));
+	
+	$wp_customize->add_setting('vital_second_number_setting', array(
+        'default' => '0'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_second_number_control', array(
+		'label' => 'Second Status number',
+		'section' => 'vital_status_section',
+		'settings' => 'vital_second_number_setting',
+		'type' => 'number'
+	)));
+
+	//third status
+	$wp_customize->add_setting('vital_third_status_setting', array(
+        'default' => 'Third Status'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_third_status_control', array(
+		'label' => 'Third Status',
+		'section' => 'vital_status_section',
+		'settings' => 'vital_third_status_setting',
+		'type' => 'text'
+	)));
+	
+	$wp_customize->add_setting('vital_third_number_setting', array(
+        'default' => '0'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_third_number_control', array(
+		'label' => 'Third Status number',
+		'section' => 'vital_status_section',
+		'settings' => 'vital_third_number_setting',
+		'type' => 'number'
+	)));
+
+	//fourth status
+	$wp_customize->add_setting('vital_fourth_status_setting', array(
+        'default' => 'Fourth Status'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_fourth_status_control', array(
+		'label' => 'Fourth Status',
+		'section' => 'vital_status_section',
+		'settings' => 'vital_fourth_status_setting',
+		'type' => 'text'
+	)));
+	
+	$wp_customize->add_setting('vital_fourth_number_setting', array(
+        'default' => '0'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_fourth_numbers_control', array(
+		'label' => 'Fourth Status number',
+		'section' => 'vital_status_section',
+		'settings' => 'vital_fourth_number_setting',
+		'type' => 'number'
+	)));
+}
+
+add_action('customize_register', 'vital_statuses_register');
+
