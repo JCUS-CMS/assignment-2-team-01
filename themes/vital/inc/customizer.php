@@ -53,3 +53,23 @@ function vital_customize_preview_js() {
 	wp_enqueue_script( 'vital-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20151215', true );
 }
 add_action( 'customize_preview_init', 'vital_customize_preview_js' );
+
+
+
+/*
+//change the status
+function vital_statuses($wp_customize){
+    $wp_customize -> add_section('vital_status_section', array(
+    
+	));
+
+    $wp_customize -> add_setting(, array(
+    
+	));
+
+    $wp_customize -> add_control(, array(
+    
+	));
+}
+add_action('customize_register', 'vital_statuses');
+*/

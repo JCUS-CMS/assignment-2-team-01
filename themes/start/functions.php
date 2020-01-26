@@ -277,3 +277,4 @@ function custom_excerpt_length($length){
 }
 
 add_filter('excerpt_length', 'custom_excerpt_length',999);
+
