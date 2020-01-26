@@ -1169,8 +1169,6 @@ li{
 	text-align: center;
 	padding: 2em;
 	border: 1px solid #00b3ff;
-	
-	
 }
 
 .plansBox p{
@@ -1201,18 +1199,29 @@ li{
 .services{
 	width: 90%;
 	margin: auto;
+	text-align: center;
 }
 
 .servicesBox{
-	width: 30%;
-	margin: auto;
+	width: 33.33%;
 	float: left;
+	text-align: center;
+	padding: 2em;
+	border: 1px solid #00b3ff;
 	
 }
 
 .servicesImage{
-	width: 40%;
-	float: left;
-	margin: auto;
-	background: black;
+    display:block;
+    height:300px;/*set an height */
+    line-height:200px;/* set the baseline at 100px from top*/
+    overflow:hidden;
+}
+
+.servicesImage img{
+    position: relative;
+    margin: -50% auto;/* virtualy height needed turn don to zero */
+    width: 100%;/* height will follow within image ratio */
+    height:auto;/* to overrride attribute height set in tag */
+    vertical-align:middle;/* finalise vertical centering on baseline*/
 }

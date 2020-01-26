@@ -45,42 +45,44 @@
 			</div><!-- .tickerBox -->
 		</div><!-- .container -->
 	</div><!-- .sectionWhite -->
+
+		<div class="servicesImage">
+				<img src="http://192.168.33.10/wp-content/uploads/2020/01/Kalumpang-pic12.jpg">
+			</div><!-- .servicesImage -->	
+			
 	
 	<div class="clear"></div><!-- .clear -->
 	
 	<div class="section sectionThemeColor">
 		<div class="container">
+		
 			<div class="services">
-			<div class="centerText">
+				
+				<div class="centerText">
 					<h2>Services Provided</h2>
 				</div><!-- .centerText -->
-				
-				<div class= "servicesbox">
-					<div class="servicesBox1">
+					<div class="servicesBox servicesBox1">
 						<h3>Services 1</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
 					</div><!-- .servicesBox1 -->
 					
-					<div class="servicesBox2">
+					<div class="servicesBox servicesBox2">
 						<h3>Services 2</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
 					</div><!-- .servicesBox2 -->
 					
-					<div class="servicesBox3">
+					<div class="servicesBox servicesBox3">
 						<h3>Services 3</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
 					</div><!-- .servicesBox3 -->	
-				</div><!-- .servicesBox -->	
 				
-				<div class="servicesImage">
-				<p>qwerfghjk</p>
-				</div><!-- .servicesImage -->	
-
 			</div><!-- .services -->
+
+<div class="clear"></div><!-- .clear -->
 		</div><!-- .container -->
 	</div><!-- .sectionThemeColor -->
 	
-	<div class="clear"></div><!-- .clear -->
+
 	
 	<div class="section sectionWhite">
 		<div class="container">
@@ -116,7 +118,7 @@
 
 		
 
-		</main><!-- #main -->
+		<div class="clear"></div><!-- .clear -->
 	</div><!-- #primary -->
 	</div><!-- .container -->
 	</div><!-- .sectionWhite -->
