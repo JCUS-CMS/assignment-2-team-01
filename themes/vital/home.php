@@ -63,7 +63,7 @@
 	</div><!-- .sectionWhite -->
 
 		<div class="servicesImage">
-				<img src="http://192.168.33.10/wp-content/uploads/2020/01/Kalumpang-pic12.jpg">
+				<img src="http://havk.sgedu.site/dcm.staging/wp-content/uploads/2020/01/Kalumpang-pic10.jpg">
 			</div><!-- .servicesImage -->	
 			
 	
