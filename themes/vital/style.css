@@ -1321,12 +1321,12 @@ li {
     color: #00b3ff;
 }
 
-.plansBox {
-    width: 50%;
-    float: left;
-    text-align: center;
-    padding: 2em;
-    border: 1px solid #00b3ff;
+.plansBox{
+	width: 50%;
+	float: left;
+	text-align: center;
+	padding: 2em;
+
 }
 
 .plansBox p {
@@ -1334,30 +1334,11 @@ li {
     padding: 0;
 }
 
-.plansBox1 {
-    border-left: none;
-    border-top: none;
-}
-
-.plansBox2 {
-    border-right: none;
-    border-top: none;
-}
-
-.plansBox3 {
-    border-left: none;
-    border-bottom: none;
-}
-
-.plansBox4 {
-    border-right: none;
-    border-bottom: none;
-}
-
-.services {
-    width: 90%;
-    margin: auto;
-    text-align: center;
+	
+.services{
+	width: 90%;
+	margin: auto;
+	text-align: center;
 }
 
 .servicesBox {
