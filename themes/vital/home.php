@@ -49,15 +49,12 @@
 	
 	<div class="section sectionThemeColor">
 		<div class="container">
+			<div class="centerText">
+				<h2>Future Plans</h2>
+			</div><!-- .centerText -->
 		
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
 
-		
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-	</div><!-- .container -->
+		</div><!-- .container -->
 	</div><!-- .sectionThemeColor -->
 	
 	<div class="section sectionWhite">
