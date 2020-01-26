@@ -701,6 +701,12 @@ a:hover, a:active {
 		display: block;
 	}
 }
+.site-main{
+	padding: 20px 0;
+	width: 90%;
+	margin: auto;
+	background-color:white;
+}
 
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
@@ -1226,12 +1232,7 @@ li{
     vertical-align:middle;/* finalise vertical centering on baseline*/
 }
 
-.blog_categories{
-	padding: 20px 0;
-	width: 90%;
-	margin: auto;
-	background-color:white;
-}
+
 
 .blog_categories h1{
 	margin: 20px 0;
@@ -1243,4 +1244,9 @@ li{
 	float: left;
 	text-align: left;
 	padding: 2em;
+}
+
+.subcategories .recent-p{
+	margin:0;
+	padding:0;
 }

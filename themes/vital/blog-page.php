@@ -34,6 +34,7 @@ get_header();
 								<a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a>
 								</h2>';
 								?>
+								<p class="recent-p">Recent post:</p>
 								<h3><?php the_title() ?></h3>
 								<?php the_excerpt();?>
 
