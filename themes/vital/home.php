@@ -64,6 +64,7 @@
 
 		<div class="servicesImage">
 				<img src="<?php echo get_theme_mod('services_image_setting', '') ?>" alt="services image">
+
 			</div><!-- .servicesImage -->	
 			
 	
