@@ -61,8 +61,8 @@
 	</div><!-- .sectionThemeColor -->
 	
 	<div class="site-info">
-			<p>Copyright © 2020, <?php bloginfo( 'name' );?></p>
-		</div><!-- .site-info -->
+		<p>Copyright © 2020, <?php bloginfo( 'name' );?></p>
+	</div><!-- .site-info -->
 	
 </div><!-- #page -->
 

@@ -701,6 +701,12 @@ a:hover, a:active {
 		display: block;
 	}
 }
+.site-main{
+	padding: 20px 0;
+	width: 90%;
+	margin: auto;
+	background-color:white;
+}
 
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
@@ -1153,7 +1159,7 @@ li{
 
 .site-info p{
 	margin: 0;
-	padding: 0.5em;
+	padding-top: 0.5em;
 }
 
 .centerText{
@@ -1279,3 +1285,21 @@ width: 25%;
 float: left;
 width: 25%;
 }
+
+.blog_categories h1{
+	margin: 20px 0;
+	text-align: center;
+}
+
+.subcategories{
+	width: 50%;
+	float: left;
+	text-align: left;
+	padding: 2em;
+}
+
+.subcategories .recent-p{
+	margin:0;
+	padding:0;
+}
+
