@@ -59,7 +59,7 @@
 					the_custom_logo();?>
 					<h1><?php bloginfo( 'name' );?></h1>
 					<h3><?php echo get_bloginfo( 'description', 'display' ); /* WPCS: xss ok. */ ?></h3>
-					<p>Enter you site's eye catching message here to draw in people</p>
+					<p><?php echo get_theme_mod('vital_cover_quote_setting')?></p>
 
 					<a href="#" title="coverImageButton" class="button buttonCoverImage">Find out more</a>
 					</div><!-- .backgroundBox -->

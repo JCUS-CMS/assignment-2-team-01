@@ -490,4 +490,28 @@ add_action('customize_register', 'vital_services_register');
 	)));
 }
 
-	add_action('customize_register', 'vital_future_plan_register');
+add_action('customize_register', 'vital_future_plan_register');
+
+
+//Cover image quote section
+function vital_cover_quote($wp_customize){
+	$wp_customize->add_section('vital_cover_quote_section', array(
+		'title' => 'Cover Section Quote',
+		'priority' => 29,
+		'description' => 'Change the quote in cover image'
+	));
+
+	//first status
+	$wp_customize->add_setting('vital_cover_quote_setting', array(
+        'default' => 'Cover Section Quote'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_cover_quote_control', array(
+		'label' => 'Cover Section Quote',
+		'section' => 'vital_cover_quote_section',
+		'settings' => 'vital_cover_quote_setting',
+		'type' => 'textarea'
+	)));
+
+}
+
+add_action('customize_register', 'vital_cover_quote');
