@@ -1151,6 +1151,11 @@ li{
 	text-align: center;
 }
 
+.site-info p{
+	margin: 0;
+	padding: 0.5em;
+}
+
 .centerText{
 	text-align: center;
 	margin-bottom: 2em;
@@ -1224,4 +1229,53 @@ li{
     width: 100%;/* height will follow within image ratio */
     height:auto;/* to overrride attribute height set in tag */
     vertical-align:middle;/* finalise vertical centering on baseline*/
+}
+
+.site-footer{
+	width: 90%;
+	margin: auto;
+}
+
+#footerSection{
+	margin-bottom:0;
+}
+
+#footer-sidebar {
+display:block;
+height: auto;
+}
+
+#footer-sidebar img{
+	width: 100px;
+	height: auto;
+	
+}
+
+#footer-sidebar h1, h2, h3, h4, h5, h6 {
+	padding:0.5em 0;
+}
+
+#footer-sidebar p {
+	padding:0;
+	margin:0;
+}
+
+#footer-sidebar1 {
+float: left;
+width: 25%;
+}
+
+#footer-sidebar2 {
+float: left;
+width: 25%;
+}
+
+#footer-sidebar3 {
+float: left;
+width: 25%;
+}
+
+#footer-sidebar4 {
+float: left;
+width: 25%;
 }

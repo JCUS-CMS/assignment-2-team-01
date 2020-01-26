@@ -123,15 +123,6 @@
 	</div><!-- .container -->
 	</div><!-- .sectionWhite -->
 	
-	<div class="section sectionThemeColor">
-		<div class="container">
-		
-		
-		
-	</div><!-- .container -->
-	</div><!-- .sectionThemeColor -->
-	
 	<?php 
-	get_sidebar();
 	get_footer(); ?>
 	
