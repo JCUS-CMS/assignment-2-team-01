@@ -17,28 +17,42 @@
 						<h3 class="tickerUp">
 							<?php echo get_theme_mod("vital_first_number_setting"); ?>
 						</h3>
-						<p>Ticker 1</p> 
+						<p>
+						<?php echo get_theme_mod("vital_first_status_setting"); ?>
+						</p> 
 					</div><!-- .tickerInnerContent -->
 				</div><!-- .width25 -->
 				
 				<div class="width25">
 					<div class="tickerInnerContent">
-						<h3 class="tickerUp">0</h3>
-						<p>Ticker 2</p> 
+						<h3 class="tickerUp">
+						<?php echo get_theme_mod("vital_second_number_setting"); ?>
+						</h3>
+						<p>
+						<?php echo get_theme_mod("vital_second_status_setting"); ?>
+						</p> 
 					</div><!-- .tickerInnerContent -->
 				</div><!-- .width25 -->
 				
 				<div class="width25">
 					<div class="tickerInnerContent">
-						<h3 class="tickerUp">0</h3>
-						<p>Ticker 3</p> 
+						<h3 class="tickerUp">
+						<?php echo get_theme_mod("vital_third_number_setting"); ?>
+						</h3>
+						<p>
+						<?php echo get_theme_mod("vital_third_status_setting"); ?>
+						</p> 
 					</div><!-- .tickerInnerContent -->
 				</div><!-- .width25 -->
 				
 				<div class="width25">
 					<div class="tickerInnerContent">
-						<h3 class="tickerUp">0</h3>
-						<p>Ticker 4</p> 
+						<h3 class="tickerUp">
+						<?php echo get_theme_mod("vital_fourth_number_setting"); ?>
+						</h3>
+						<p>
+						<?php echo get_theme_mod("vital_fourth_status_setting"); ?>
+						</p> 
 					</div><!-- .tickerInnerContent -->
 				</div><!-- .width25 -->
 				
