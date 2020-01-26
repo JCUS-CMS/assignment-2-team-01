@@ -6,6 +6,7 @@ We have done a lot of research and followed many tutorials to create this theme.
 2. Homepage customisation
 3. Blog categories, blog page, camps page template
 4. Widget areas for footer
+5. Use of the website name and description to be called for certain site branding areas
 
 == Installation ==
 
