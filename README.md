@@ -18,13 +18,19 @@ Xinhang's Profile linkedin.com/in/xinhang-xu-2b287519b
 -Localhost: Our team use Vagrant and virtual machine to create local environment for WordPress. All the procedures are working on our localhost at first.
 
 -Staging site: After finishing developing on localhost, we migrate our site to staging site which is used for testing.
+ https://havk.sgedu.site/dcm.staging/
 
 -Production site: It is a stable site and contains our final finished works. 
+ https://havk.sgedu.site/doctor.connect.malaysia/
 
 
 
 # Project overview
-This is a group project about creating a website for 'Doctor Connect' based on WordPress. 'Doctor Connect' is a website about Malaysian Doctors Connect Foundation which would like to provide free healthcare for local residents. Relevent materials and content inside websites are given by JCUS.
+This project is about creating a dynamic website for the health professionals volunteer group who create access to quality healthcare for remote inaccessible and poor socio-economic areas irrespective of race, religion or nationality for free.
+
+We made the website using Wordpress and worked on it as a group. To coordinate better, we used Github, Trello, Slack and Google Drive. The whole project is set up with local, staging and then production. We started off with setting up local environments, having connectionless automatic process with SSH, and using webhook to automatically push changes from our local to our staging site in Siteground whenever we push to Github. However, GitHub does not handle the changes related to database so we used the WP DB sync plugin to migrate the database.
+
+Moreover, we have used a starter theme, Underscores, to developed our own custom theme, Vital. Since all of us have very little knowledge about theme development, we did not achieve a satisfactory result. However, we learned a lot along the way which we believe would help us in the future. We faced many challenges and difficulties but we managed to find solutions or work our way around it even if we had to invest a lot of time and effort.
 
 URL link: https://havk.sgedu.site/doctor.connect.malaysia
 
