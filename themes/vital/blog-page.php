@@ -9,20 +9,19 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
-            <div>
-			<?php 
-				foreach((get_the_category()) as $category){
-					echo $category;
-					echo $category->name."<br>";
-					echo category_description($category);
-					}
-				?>
-			</div>
-			<?php echo $category -> name;?>
-
+			<!--To list all the sub categories-->
+			<?php
+				$args = array('parent'=>5);
+				$categories = get_categories($args);
+				foreach ($categories as $category){
+					echo '<div><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></div>';
+				}
+			?>
+			
+		
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
 <?php
 get_sidebar();
-get_footer();
+get_footer();?>
