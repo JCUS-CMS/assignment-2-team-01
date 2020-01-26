@@ -18,7 +18,8 @@ Manual installation and activation:
 4. Activate the theme under Theme tab in Appearences
 
 Now you can go into customiser and make changes accordingly
-*For the cover image, you will have to manuall change the image link in .coverImage background image link*
+*For the cover image, you will have to manuall change the image link in .coverImage background image link
+*Find out more button can be edited from header.php inside div with class backgroundBox
 
 
 == License ==
