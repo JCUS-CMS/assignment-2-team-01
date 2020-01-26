@@ -8,48 +8,53 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-
-			<!--To list all the sub categories-->
-			<?php
-				$args = array('parent'=>5);
-				$categories = get_categories($args);
-				foreach ($categories as $category){
-				?>
-				<div>
+			
+			<div class="blog_categories">
+				<!--To list all the sub categories-->
+				<h1>Blog Categories</h1>
 				<?php
-					echo '
-					<div>
-					<a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a>
-					</div>';
-					$post_args = array('category_name'=>$category->name,'orderby'=>'date','posts_per_page'=>1);
-					$category_posts = new WP_Query($post_args);
-					if($category_posts->have_posts()):
-						while($category_posts->have_posts()):
-							$category_posts->the_post();
-							?>
-							<h1><?php the_title() ?></h1>
-							<h2><?php the_category() ?></h2>
-							<?php the_excerpt();?>
-							<?php
-						endwhile;
-					else:
+					$args = array('parent'=>5);
+					$categories = get_categories($args);
+					foreach ($categories as $category){
 					?>
-
-					<p>Oops, there are no posts.</p>
+					<div>
 					<?php
-					endif;
+						$post_args = array('category_name'=>$category->name,'orderby'=>'date','posts_per_page'=>1);
+						$category_posts = new WP_Query($post_args);
+						if($category_posts->have_posts()):
+							while($category_posts->have_posts()):
+								$category_posts->the_post();
+								?>
+
+								<div class="subcategories">
+
+								<?php
+								echo '
+								<h2>
+								<a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a>
+								</h2>';
+								?>
+								<h3><?php the_title() ?></h3>
+								<?php the_excerpt();?>
+
+								</div>
+
+								<?php
+							endwhile;
+						else:
+						?>
+
+						<p>Oops, there are no posts.</p>
+						<?php
+						endif;
+					?>
+					</div>
+					<?php
+					}
 				?>
-				</div>
-				<?php
-				}
-			?>
-										  
-
-
-		
+			</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
 <?php
-get_sidebar();
 get_footer();?>

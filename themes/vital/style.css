@@ -1225,3 +1225,22 @@ li{
     height:auto;/* to overrride attribute height set in tag */
     vertical-align:middle;/* finalise vertical centering on baseline*/
 }
+
+.blog_categories{
+	padding: 20px 0;
+	width: 90%;
+	margin: auto;
+	background-color:white;
+}
+
+.blog_categories h1{
+	margin: 20px 0;
+	text-align: center;
+}
+
+.subcategories{
+	width: 50%;
+	float: left;
+	text-align: left;
+	padding: 2em;
+}
