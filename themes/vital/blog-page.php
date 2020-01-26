@@ -14,6 +14,9 @@ get_header();
 				$args = array('parent'=>5);
 				$categories = get_categories($args);
 				foreach ($categories as $category){
+				?>
+				<div>
+				<?php
 					echo '
 					<div>
 					<a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a>
@@ -26,7 +29,7 @@ get_header();
 							?>
 							<h1><?php the_title() ?></h1>
 							<h2><?php the_category() ?></h2>
-							<div class='post-content'><?php the_content() ?></div>
+							<?php the_excerpt();?>
 							<?php
 						endwhile;
 					else:
@@ -35,6 +38,9 @@ get_header();
 					<p>Oops, there are no posts.</p>
 					<?php
 					endif;
+				?>
+				</div>
+				<?php
 				}
 			?>
 										  

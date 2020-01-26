@@ -160,4 +160,27 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+function get_excerpt(){
+$excerpt = get_the_content();
+$excerpt = preg_replace(" ([.*?])",'',$excerpt);
+$excerpt = strip_shortcodes($excerpt);
+$excerpt = strip_tags($excerpt);
+$excerpt = substr($excerpt, 0, 10);
+$excerpt = substr($excerpt, 0, strripos($excerpt, " "));
+$excerpt = trim(preg_replace( '/\s+/', ' ', $excerpt));
+return $excerpt;
+}
+
+function custom_excerpt_length($length){
+	return 50;
+}
+
+add_filter('excerpt_length', 'custom_excerpt_length', 999);
+
+function the_excerpt_more_link( $excerpt ){
+    $post = get_post();
+    $excerpt .= '<a href="'. get_permalink($post->ID) . '">continue reading</a>.';
+    return $excerpt;
+}
+add_filter( 'the_excerpt', 'the_excerpt_more_link', 50 );
 
