@@ -225,7 +225,7 @@ add_filter( 'the_excerpt', 'the_excerpt_more_link', 50 );
 function vital_statuses_register($wp_customize){
 	$wp_customize->add_section('vital_status_section', array(
 		'title' => 'Statistic Section',
-		'priority' => 30,
+		'priority' => 28,
 		'description' => 'To modify the Statistics of the site'
 	));
 
@@ -320,7 +320,7 @@ add_action('customize_register', 'vital_statuses_register');
 function vital_services_register($wp_customize){
 	$wp_customize->add_section('vital_services_section', array(
 		'title' => 'Services Provided Section',
-		'priority' => 31,
+		'priority' => 29,
 		'description' => 'To modify the Service Provided of the site'
 	));
 
@@ -497,7 +497,7 @@ add_action('customize_register', 'vital_future_plan_register');
 function vital_cover_quote($wp_customize){
 	$wp_customize->add_section('vital_cover_quote_section', array(
 		'title' => 'Cover Section Quote',
-		'priority' => 29,
+		'priority' => 27,
 		'description' => 'Change the quote in cover image'
 	));
 
@@ -515,3 +515,25 @@ function vital_cover_quote($wp_customize){
 }
 
 add_action('customize_register', 'vital_cover_quote');
+
+//Services Image
+function services_image($wp_customize){
+	$wp_customize->add_section('services_image_section', array(
+		'title' => 'Services Image Section',
+		'priority'=> 30
+	));
+	
+	$wp_customize->add_setting('services_image_setting' , array(
+		'default'   => '',
+		'transport' => 'refresh'
+	) );
+
+	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'services_image_control', array(
+		'label' => 'Services Image',
+		'section' => 'services_image_section',
+		'settings' => 'services_image_setting'
+	)));
+
+}
+
+add_action('customize_register', 'services_image');
