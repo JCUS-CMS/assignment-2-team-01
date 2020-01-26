@@ -1,5 +1,5 @@
-# assignment-2-team-01
-assignment-2-team-01 created by GitHub Classroom
+# Assignment-2-team-01
+Assignment-2-team-01 created by GitHub Classroom
 
 
 Team memmbers (LinkedIn profile link):
@@ -30,7 +30,7 @@ URL link: https://havk.sgedu.site/doctor.connect.malaysia
 
 
 # Theme Info
-
+Please refer to our Vital theme's readme.txt in the Vital theme folder.
 
 
 # Database
