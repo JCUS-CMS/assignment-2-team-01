@@ -1,47 +1,30 @@
-[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
+Vital theme is a theme developed by students with no background in theme development.
+We have done a lot of research and followed many tutorials to create this theme. While vital was created as a theme for a volunteer organisation, it is fairly simple due to our lack of experience and knowledge. The main elements of the the theme layout are the homepage, blogs page and our camps page. While it is true that the theme is not very flexible and requires a lot more development, it's hompage is easily customisable with related content which is quite useful for people who are unfamilier with themes or php. Due to time constraint of our assignment and other complications, we were unable to deal with certain issues like the fully responsive.
 
-_s
-===
+== Installation ==
+Manual installation and activation:
 
-Hi. I'm a starter theme called `_s`, or `underscores`, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+1. Go to Themes
+2. Click on upload Vital theme
+3. Upload the Vital theme zip file and click install now
+4. Activate the theme under Theme tab in Appearences
 
-My ultra-minimal CSS might make me look like theme tartare but that means less stuff to get in your way when you're designing your awesome theme. Here are some of the other more interesting things you'll find here:
+Now you can go into customiser and make changes accordingly
 
-* A just right amount of lean, well-commented, modern, HTML5 templates.
-* A helpful 404 template.
-* A custom header implementation in `inc/custom-header.php` just add the code snippet found in the comments of `inc/custom-header.php` to your `header.php` template.
-* Custom template tags in `inc/template-tags.php` that keep your templates clean and neat and prevent code duplication.
-* Some small tweaks in `inc/template-functions.php` that can improve your theming experience.
-* A script at `js/navigation.js` that makes your menu a toggled dropdown on small screens (like your phone), ready for CSS artistry. It's enqueued in `functions.php`.
-* 2 sample CSS layouts in `layouts/` for a sidebar on either side of your content.
-Note: `.no-sidebar` styles are not automatically loaded.
-* Smartly organized starter CSS in `style.css` that will help you to quickly get your design off the ground.
-* Full support for `WooCommerce plugin` integration with hooks in `inc/woocommerce.php`, styling override woocommerce.css with product gallery features (zoom, swipe, lightbox) enabled.
-* Licensed under GPLv2 or later. :) Use it to make something cool.
 
-Getting Started
----------------
+== License ==
+Unless otherwise specified, all the theme files, scripts and images
+are licensed under GNU General Public License version 2, see http://www.gnu.org/licenses/gpl-2.0.html.
 
-If you want to keep it simple, head over to https://underscores.me and generate your `_s` based theme from there. You just input the name of the theme you want to create, click the "Generate" button, and you get your ready-to-awesomize starter theme.
+== Additional Notes ==
+The theme is released for free under the terms of the GNU General Public License version 2
+and some parts under their respective licenses.
+In general words, feel free and encouraged to use, modify and redistribute this theme however you like.
+You may remove any copyright references (unless required by third party components) and crediting is not necessary.
+The theme is offered free of charge. If someone asked money for it, someone just tricked you.
 
-If you want to set things up manually, download `_s` from GitHub. The first thing you want to do is copy the `_s` directory and change the name to something else (like, say, `megatherium-is-awesome`), and then you'll need to do a five-step find and replace on the name in all the templates.
+== Supported Browser ==
+Mozilla Firefox, Google Chrome, Safari, IE 10,9,8,7
 
-1. Search for `'_s'` (inside single quotations) to capture the text domain.
-2. Search for `_s_` to capture all the function names.
-3. Search for `Text Domain: _s` in `style.css`.
-4. Search for <code>&nbsp;_s</code> (with a space before it) to capture DocBlocks.
-5. Search for `_s-` to capture prefixed handles.
-
-OR
-
-1. Search for: `'_s'` and replace with: `'megatherium-is-awesome'`.
-2. Search for: `_s_` and replace with: `megatherium_is_awesome_`.
-3. Search for: `Text Domain: _s` and replace with: `Text Domain: megatherium-is-awesome` in `style.css`.
-4. Search for: <code>&nbsp;_s</code> and replace with: <code>&nbsp;Megatherium_is_Awesome</code>.
-5. Search for: `_s-` and replace with: `megatherium-is-awesome-`.
-
-Then, update the stylesheet header in `style.css`, the links in `footer.php` with your own information and rename `_s.pot` from `languages` folder to use the theme's slug. Next, update or delete this readme.
-
-Now you're ready to go! The next step is easy to say, but harder to do: make an awesome WordPress theme. :)
-
-Good luck!
+== Version history ==
+1.0.0 First version

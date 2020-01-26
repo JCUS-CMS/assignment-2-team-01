@@ -221,3 +221,273 @@ function the_excerpt_more_link( $excerpt ){
 }
 add_filter( 'the_excerpt', 'the_excerpt_more_link', 50 );
 
+//Statistic section
+function vital_statuses_register($wp_customize){
+	$wp_customize->add_section('vital_status_section', array(
+		'title' => 'Statistic Section',
+		'priority' => 30,
+		'description' => 'To modify the Statistics of the site'
+	));
+
+	//first status
+	$wp_customize->add_setting('vital_first_status_setting', array(
+        'default' => 'First Status'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_first_status_control', array(
+		'label' => 'First Status',
+		'section' => 'vital_status_section',
+		'settings' => 'vital_first_status_setting',
+		'type' => 'text'
+	)));
+
+	$wp_customize->add_setting('vital_first_number_setting', array(
+        'default' => '0'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_first_number_control', array(
+		'label' => 'First Status number',
+		'section' => 'vital_status_section',
+		'settings' => 'vital_first_number_setting',
+		'type' => 'number'
+	)));
+
+	//second status
+	$wp_customize->add_setting('vital_second_status_setting', array(
+        'default' => 'Second Status'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_second_status_control', array(
+		'label' => 'Second Status',
+		'section' => 'vital_status_section',
+		'settings' => 'vital_second_status_setting',
+		'type' => 'text'
+	)));
+	
+	$wp_customize->add_setting('vital_second_number_setting', array(
+        'default' => '0'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_second_number_control', array(
+		'label' => 'Second Status number',
+		'section' => 'vital_status_section',
+		'settings' => 'vital_second_number_setting',
+		'type' => 'number'
+	)));
+
+	//third status
+	$wp_customize->add_setting('vital_third_status_setting', array(
+        'default' => 'Third Status'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_third_status_control', array(
+		'label' => 'Third Status',
+		'section' => 'vital_status_section',
+		'settings' => 'vital_third_status_setting',
+		'type' => 'text'
+	)));
+	
+	$wp_customize->add_setting('vital_third_number_setting', array(
+        'default' => '0'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_third_number_control', array(
+		'label' => 'Third Status number',
+		'section' => 'vital_status_section',
+		'settings' => 'vital_third_number_setting',
+		'type' => 'number'
+	)));
+
+	//fourth status
+	$wp_customize->add_setting('vital_fourth_status_setting', array(
+        'default' => 'Fourth Status'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_fourth_status_control', array(
+		'label' => 'Fourth Status',
+		'section' => 'vital_status_section',
+		'settings' => 'vital_fourth_status_setting',
+		'type' => 'text'
+	)));
+	
+	$wp_customize->add_setting('vital_fourth_number_setting', array(
+        'default' => '0'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_fourth_numbers_control', array(
+		'label' => 'Fourth Status number',
+		'section' => 'vital_status_section',
+		'settings' => 'vital_fourth_number_setting',
+		'type' => 'number'
+	)));
+}
+
+add_action('customize_register', 'vital_statuses_register');
+
+//Service Provided section
+function vital_services_register($wp_customize){
+	$wp_customize->add_section('vital_services_section', array(
+		'title' => 'Services Provided Section',
+		'priority' => 31,
+		'description' => 'To modify the Service Provided of the site'
+	));
+
+	//first Service
+	$wp_customize->add_setting('vital_first_service_setting', array(
+        'default' => 'First Service'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_first_service_control', array(
+		'label' => 'First Service',
+		'section' => 'vital_services_section',
+		'settings' => 'vital_first_service_setting',
+		'type' => 'text'
+	)));
+
+	$wp_customize->add_setting('vital_first_service_desc_setting', array(
+        'default' => 'First Service description'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_first_service_desc_control', array(
+		'label' => 'First Service Description',
+		'section' => 'vital_services_section',
+		'settings' => 'vital_first_service_desc_setting',
+		'type' => 'textarea',
+        'default' => 'Service description'
+	)));
+
+	//second Service
+	$wp_customize->add_setting('vital_second_service_setting', array(
+        'default' => 'Second Service'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_second_service_control', array(
+		'label' => 'Second Service',
+		'section' => 'vital_services_section',
+		'settings' => 'vital_second_service_setting',
+		'type' => 'text'
+	)));
+	
+	$wp_customize->add_setting('vital_second_service_desc_setting', array(
+        'default' => 'Second Service Description'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_second_service_desc_control', array(
+		'label' => 'Second Service Description',
+		'section' => 'vital_services_section',
+		'settings' => 'vital_second_service_desc_setting',
+		'type' => 'textarea'
+	)));
+
+	//third Service
+	$wp_customize->add_setting('vital_third_service_setting', array(
+        'default' => 'Third Service'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_third_service_control', array(
+		'label' => 'Third Service',
+		'section' => 'vital_services_section',
+		'settings' => 'vital_third_service_setting',
+		'type' => 'text'
+	)));
+	
+	$wp_customize->add_setting('vital_third_service_desc_setting', array(
+        'default' => 'Third Service Description'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_third_service_desc_control', array(
+		'label' => 'Third Service Description',
+		'section' => 'vital_services_section',
+		'settings' => 'vital_third_service_desc_setting',
+		'type' => 'textarea'
+	)));
+
+	
+}
+
+add_action('customize_register', 'vital_services_register');
+
+//Future Plans
+	function vital_future_plan_register($wp_customize)
+	{
+
+	$wp_customize->add_section('vital_future_plan_section', array(
+		'title' => 'Future Plans Section',
+		'priority' => 31,
+		'description' => 'To modify the Future Plans Provided of the site'
+	));
+
+	//First Plan
+	$wp_customize->add_setting('vital_first_future_plan_setting', array(
+        'default' => 'Plan 1'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_first_future_plan_control', array(
+		'label' => 'Plan 1',
+		'section' => 'vital_future_plan_section',
+		'settings' => 'vital_first_future_plan_setting',
+		'type' => 'text'
+	)));
+
+	$wp_customize->add_setting('vital_first_future_plan_desc_setting', array(
+        'default' => 'Plan 1 Description'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_first_future_plan_desc_control', array(
+		'label' => 'Plan 1 Description',
+		'section' => 'vital_future_plan_section',
+		'settings' => 'vital_first_future_plan_desc_setting',
+		'type' => 'textarea',
+        'default' => 'Service description'
+	)));
+
+	//Second Plan
+	$wp_customize->add_setting('vital_second_future_plan_setting', array(
+        'default' => 'Plan 2'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_second_future_plan_control', array(
+		'label' => 'Plan 2',
+		'section' => 'vital_future_plan_section',
+		'settings' => 'vital_second_future_plan_setting',
+		'type' => 'text'
+	)));
+	
+	$wp_customize->add_setting('vital_second_future_plan_desc_setting', array(
+        'default' => 'Plan 2 Description'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_second_future_plan_desc_control', array(
+		'label' => 'Plan 2 Description',
+		'section' => 'vital_future_plan_section',
+		'settings' => 'vital_second_future_plan_desc_setting',
+		'type' => 'textarea'
+	)));
+
+	//Third Plan
+	$wp_customize->add_setting('vital_third_future_plan_setting', array(
+        'default' => 'Plan 3'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_third_future_plan_control', array(
+		'label' => 'Plan 3',
+		'section' => 'vital_future_plan_section',
+		'settings' => 'vital_third_future_plan_setting',
+		'type' => 'text'
+	)));
+	
+	$wp_customize->add_setting('vital_third_future_plan_desc_setting', array(
+        'default' => 'Plan 3 Description'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_third_future_plan_desc_control', array(
+		'label' => 'Plan 3 Description',
+		'section' => 'vital_future_plan_section',
+		'settings' => 'vital_third_future_plan_desc_setting',
+		'type' => 'textarea'
+	)));
+	
+
+	//Fourth Plan
+	$wp_customize->add_setting('vital_fourth_future_plan_setting', array(
+        'default' => 'Plan 4'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_fourth_future_plan_control', array(
+		'label' => 'Plan 4',
+		'section' => 'vital_future_plan_section',
+		'settings' => 'vital_fourth_future_plan_setting',
+		'type' => 'text'
+	)));
+	
+	$wp_customize->add_setting('vital_fourth_future_plan_desc_setting', array(
+        'default' => 'Plan 4 Description'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'vital_fourth_future_plan_desc_control', array(
+		'label' => 'Plan 4 Description',
+		'section' => 'vital_future_plan_section',
+		'settings' => 'vital_fourth_future_plan_desc_setting',
+		'type' => 'textarea'
+	)));
+}
+
+	add_action('customize_register', 'vital_future_plan_register');
